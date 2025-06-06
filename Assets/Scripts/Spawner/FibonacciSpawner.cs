@@ -13,12 +13,12 @@ public class FibonacciSpawner : MonoBehaviour
     private float spawnInterval = 5f;
     private void OnEnable()
     {
-        Enemy.OnAnyEnemyKilled += HandleEnemyKilled;
+        EnemyBase.OnAnyEnemyKilled += HandleEnemyKilled;
     }
 
     private void OnDisable()
     {
-        Enemy.OnAnyEnemyKilled -= HandleEnemyKilled;
+        EnemyBase.OnAnyEnemyKilled -= HandleEnemyKilled;
     }
 
     private void Update()
@@ -34,7 +34,7 @@ public class FibonacciSpawner : MonoBehaviour
 
     private void HandleEnemyKilled()
     {
-        AdvanceFibonacciIndex();
+        //AdvanceFibonacciIndex();
     }
 
     private void AdvanceFibonacciIndex()
