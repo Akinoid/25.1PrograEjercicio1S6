@@ -1,9 +1,25 @@
 using UnityEngine;
+using Game.Combat;
 
-public class ShieldEnemy : EnemyBase
+public class ShieldEnemy : EnemyBase, IDamageable
 {
     [SerializeField] private float shieldInterval = 7f;
     private float shieldTimer;
+    public float maxHealth = 30f;
+    private float currentHealth;
+
+    private void Awake()
+    {
+        currentHealth = maxHealth;
+    }
+    public void TakeDamage(float damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
 
     protected override void Update()
     {

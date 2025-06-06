@@ -1,10 +1,27 @@
 using UnityEngine;
+using Game.Combat;
 
-public class KamikazeEnemy : EnemyBase
+
+public class KamikazeEnemy : EnemyBase, IDamageable
 {
     [SerializeField] private float explosionRadius = 3f;
     [SerializeField] private int explosionDamage = 20;
 
+    public float maxHealth = 30f;
+    private float currentHealth;
+
+    private void Awake()
+    {
+        currentHealth = maxHealth;
+    }
+    public void TakeDamage(float damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
     protected override void Move()
     {
         if (player == null) return;
