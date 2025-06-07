@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlayerController" Collapsed="true">
+    <Position X="7" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAQABAgAEAUABAFMAAAgAAAAAAABQAAAAAQAACAjAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerHealth">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAAAgAAAAAAAAAAAEAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerBullet" Collapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAwAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyBase">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKAACAggAAAAAAAAAAAAAQABAAAAgAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Enemy\EnemyBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyManager">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAggAAAgAAAAAAAAAABAAAAQAAAAAAAEEA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\EnemyManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EnemyBullet" Collapsed="true">
+    <Position X="18" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAoAAAAAAAAAAAAAAAAQAAQACAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Enemies\EnemyBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamikazeEnemy" Collapsed="true">
+    <Position X="15.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAIAAAAAAAAAAAggAAAAEAAAAAAgAgAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Enemies\KamikazeEnemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ShieldEnemy" Collapsed="true">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAIAAAAAAEAAAAAAAAAAEAAgAAAACgAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Enemies\ShieldEnemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RangedEnemy" Collapsed="true">
+    <Position X="15.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAIAIIQBAAAAAAAAAAAAAAEAAAAAAAAgAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Enemies\RangedEnemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MeleeEnemy" Collapsed="true">
+    <Position X="15.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAIAAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Enemies\MeleeEnemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ShieldComponent">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAAAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\ShieldComponent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="owner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameHUD" Collapsed="true">
+    <Position X="21.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAQAAgAAAAAAIAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HUD\GameHUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverUI" Collapsed="true">
+    <Position X="19" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABQAAAAACAAAAAAAAAIAAAAAQAAAAAIAAAAAQAAAAE=</HashCode>
+      <FileName>Assets\Scripts\HUD\GameOverUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FibonacciSpawner">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABAACAAAAAAAAAAAACAAAIACAAAIAQDAA=</HashCode>
+      <FileName>Assets\Scripts\Spawner\FibonacciSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StartO" Collapsed="true">
+    <Position X="20.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StartO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemy">
+    <Position X="21.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAQAgAgAAAAQAAAAEAAABAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boss\BossEnemy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentBehavior" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BossSpawner" Collapsed="true">
+    <Position X="24.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAABAAAAAAAAAAAAKACAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Boss\BossSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KamikazeBehavior" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAgAQAAAAAAEAAAAAEAQAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boss\KamikazeBehavior.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MeleeBehavior" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAQAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boss\MeleeBehavior.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RangedBehavior" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAIQAAQAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boss\RangedBehavior.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ShieldBehavior" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAEAAAAAAAAAAEAAgAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boss\ShieldBehavior.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="IBossBehavior" Collapsed="true">
+    <Position X="23.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boss\IBossBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
