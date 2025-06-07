@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="PlayerController" Collapsed="true">
+  <Class Name="PlayerController">
     <Position X="7" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>oAQABAgAEAUABAFMAAAgAAAAAAABQAAAAAQAACAjAEA=</HashCode>
@@ -8,10 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="PlayerHealth">
-    <Position X="4.5" Y="5.25" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Fields" Collapsed="true" />
-    </Compartments>
+    <Position X="3" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAIACAAAAAgAAAAAAAAAAAEAAAAAAAAgAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Player\PlayerHealth.cs</FileName>
